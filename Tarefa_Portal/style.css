@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: #4CAF50;
+    padding: 16px 0;
+    color: #ffffff;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+header li a:hover {
+    border-color: #2c3e50;
+    color: #2c3e50;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles article img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.articles article a {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    border-radius: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: 'Arial', sans-serif;
+    text-align: justify;
+}
+
+section {
+    padding-top: 16px;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(46, 204, 113, 0.1);
+}
+
+#sports .articles article a {
+    background-color: #27ae60;
+    transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+#sports .articles article a:hover {
+    border-color: #2c3e50;
+    color: #2c3e50;
+    background-color: #ffffff;
+}
+
+#economy {
+    background-color: #f39c12;
+}
+
+#economy .articles article a {
+    background-color: #e67e22; /* Laranja mais claro */
+    transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+#economy .articles article a:hover {
+    border-color: #2c3e50;
+    color: #2c3e50;
+    background-color: #ffffff;
+}
+
+#tecnologia {
+    background-color: #3498db;
+}
+
+#tecnologia .articles article a {
+    background-color: #2980b9;
+    transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+#tecnologia .articles article a:hover {
+    border-color: #2c3e50;
+    color: #2c3e50;
+    background-color: #ffffff;
+}
+
+#entreterimento {
+    background-color: #8e44ad;
+}
+
+#entreterimento .articles article a {
+    background-color: #9b59b6;
+    transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+#entreterimento .articles article a:hover {
+    border-color: #2c3e50;
+    color: #2c3e50;
+    background-color: #ffffff;
+}
